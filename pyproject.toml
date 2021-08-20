@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tf2jsonschema"
+version = "0.1.0"
+description = "Generate JSONSchema for terraform variables"
+authors = ["nilscan <nilscan31@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.1.3"
+python-hcl2 = "^4.3.2"
+PyYAML = "^6.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
